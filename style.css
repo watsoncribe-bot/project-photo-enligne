@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(248, 213, 248, 0.933);
+    padding: 0 12% ; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color:#dad5f8;
+    border-radius: 5cap;     
+}
+a {
+    text-decoration: none;
+}
+ 
+.logo {
+    font-weight: bold;
+    font-size: 60px;
+    color: #815
+  }
+.menu ul{
+    font-size: 25px;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+.menu a { 
+    color: #260483;
+    transition: 0.5s
+}
+.menu a:hover { 
+    color: #d30516
+}
+
+.btn{
+    padding: 8px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(206, 117, 9);
+    color: rgb(253, 253, 253)
+    }
+.btn:hover{
+    transition: 0.5s;
+    background-color: rgb(37, 20, 5);
+}
+.home {
+display: flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+margin: 20px 0;
+}
+.home h4{
+font-family: "Monsieur la doulaise", sans-serif;    
+font-size: 90px;
+color: rgb(211, 87, 5);
+line-height: 3px;
+}
+
+.home h1{    
+font-size: 70px;
+color: rgb(117, 69, 7);
+line-height: 50px;
+}
+.images {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.images img {
+    width: 35%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.images img:hover {
+    width: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    filter: contrast(1.1);
+}
+
